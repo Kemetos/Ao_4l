@@ -1,6 +1,42 @@
+/* FONTS */
+
+@font-face {
+    font-family: "Brandon_bld";
+    src: url(../assets/fonts/Brandon/Brandon_bld.otf);
+}
+
+@font-face {
+    font-family: "Brandon_blk";
+    src: url(../assets/fonts/Brandon/Brandon_blk.otf);
+}
+
+@font-face {
+    font-family: "Brandon_light";
+    src: url(../assets/fonts/Brandon/Brandon_light.otf);
+}
+
+@font-face {
+    font-family: "Brandon_med";
+    src: url(../assets/fonts/Brandon/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: "Brandon_reg";
+    src: url(../assets/fonts/Brandon/Brandon_reg.otf);
+}
+
+@font-face {
+    font-family: "Brandon_thin";
+    src: url(../assets/fonts/Brandon/Brandon_thin.otf);
+}
+/* GENERALE*/
+
 body{
 	background-color: white;
 }
+
+/* LANDING */
+
 #landing{
 
 }
@@ -12,6 +48,8 @@ body{
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
  	background-size: cover; /* version standardisée */
 }
+
+/* HEADER LANDING*/
 .header{
 	padding-top: 90px;
 }
@@ -24,4 +62,6 @@ body{
 }
 .header .right ul li{
 	display: inline-block;
+	font-family: Brandon_bld;
+	font-size: 15px;
 }
