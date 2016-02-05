@@ -37,10 +37,8 @@ body{
 
 /* LANDING */
 
-#landing{
-
-}
-#landing .bg_landing{
+.bg_landing{
+    z-index: -10;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -50,7 +48,9 @@ body{
 }
 
 /* HEADER LANDING*/
-
+#header{
+    height: 265px;
+}
 .header{
 	padding-top: 90px;
     height: 120px;
@@ -88,4 +88,60 @@ body{
 }
 
 /* Etapes */
-
+.container_ul{
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.container_ul ul{
+    padding: 0;
+    margin: 0;
+}
+.container_ul li{
+    position: relative;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-right: 25px;
+    background-color: #f5efe8;
+}
+.container_ul li:last-child{
+    margin-right: 0;
+}
+.container_ul .top_ul p{
+    font-family: Brandon_bld;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.container_ul .mid_ul p{
+    font-size: 18px;
+    font-family: Brandon_reg;
+    color: #676666;
+}
+.container_ul .mid_ul p{
+    font-size: 18px;
+    font-family: Brandon_reg;
+    color: #676666;
+}
+.container_ul .mid_ul .winner{
+    font-size: 15px;
+    font-family: Brandon_bld;
+    color: #676666;
+}
+.container_ul .bot_ul{
+    margin-top: 50px;
+}
+.container_ul .bot_ul p{
+    font-size: 18px;
+    font-family: Brandon_reg;
+    color: #f5efe8;
+    background-color: #938c86;
+    width: 120px;
+    border-radius: 10px;
+    margin: auto;
+}
