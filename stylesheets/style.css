@@ -52,6 +52,7 @@ body{
 /* HEADER LANDING*/
 .header{
 	padding-top: 90px;
+    height: 120px;
 }
 .header .left{
 	float: left;
@@ -59,9 +60,27 @@ body{
 }
 .header .right{
 	float: right;
+    margin-right: 75px;
 }
 .header .right ul li{
 	display: inline-block;
+    color: #f47482;
 	font-family: Brandon_bld;
 	font-size: 15px;
+}
+.header .right ul li:first-child{
+    margin-right: 90px;
+}
+.header .right ul li:last-child img{
+    position: absolute;
+    top: 85px;
+    right: 165px;
+}
+.header .right ul li:first-child img{
+    position: absolute;
+    top: 90px;
+    right: 325px;
+}
+.header .logo{
+    margin-top: 50px;
 }
