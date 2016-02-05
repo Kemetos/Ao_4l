@@ -59,8 +59,24 @@ body{
     line-height: 45px;
 }
 iframe{
-    border: 6px solid #fff;
-    border-radius: 12px 12px 12px 12px;
+    border: 8px solid #fff;
+    border-radius: 12px 12px;
+}
+.button-start{
+    text-align: center;
+}
+.button-start button{
+    display: inline-block;
+}
+button{
+    background-color: #de4a4a;
+    height: 60px;
+    width: 300px;
+    border-radius: 32.5px 32.5px;
+    font-family: Brandon_bld;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 /* HEADER LANDING*/
@@ -96,5 +112,5 @@ iframe{
     right: 325px;
 }
 .header .logo{
-    margin-top: -60px;
+    margin-top: -10px;
 }
