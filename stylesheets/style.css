@@ -47,6 +47,20 @@ body{
 	background: url(../assets/img/background_1.png) no-repeat center fixed; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
  	background-size: cover; /* version standardisée */
+    z-index: -1;
+}
+.intro{
+    color: #f47482;
+    font-family: Brandon_reg;
+    font-style: italic;
+    font-size:22px;
+    margin-top: 80px;
+    letter-spacing: 50;
+    line-height: 45px;
+}
+iframe{
+    border: 6px solid #fff;
+    border-radius: 12px 12px 12px 12px;
 }
 
 /* HEADER LANDING*/
@@ -82,5 +96,5 @@ body{
     right: 325px;
 }
 .header .logo{
-    margin-top: 50px;
+    margin-top: -60px;
 }
