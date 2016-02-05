@@ -1,3 +1,86 @@
+/* FONTS */
+
+@font-face {
+    font-family: "Brandon_bld";
+    src: url(../assets/fonts/Brandon/Brandon_bld.otf);
+}
+
+@font-face {
+    font-family: "Brandon_blk";
+    src: url(../assets/fonts/Brandon/Brandon_blk.otf);
+}
+
+@font-face {
+    font-family: "Brandon_light";
+    src: url(../assets/fonts/Brandon/Brandon_light.otf);
+}
+
+@font-face {
+    font-family: "Brandon_med";
+    src: url(../assets/fonts/Brandon/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: "Brandon_reg";
+    src: url(../assets/fonts/Brandon/Brandon_reg.otf);
+}
+
+@font-face {
+    font-family: "Brandon_thin";
+    src: url(../assets/fonts/Brandon/Brandon_thin.otf);
+}
+/* GENERALE*/
+
 body{
-	background-color: red;
+	background-color: white;
+}
+
+/* LANDING */
+
+#landing{
+
+}
+#landing .bg_landing{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url(../assets/img/background_1.png) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+ 	background-size: cover; /* version standardisée */
+}
+
+/* HEADER LANDING*/
+.header{
+	padding-top: 90px;
+    height: 120px;
+}
+.header .left{
+	float: left;
+	margin-left: 75px;
+}
+.header .right{
+	float: right;
+    margin-right: 75px;
+}
+.header .right ul li{
+	display: inline-block;
+    color: #f47482;
+	font-family: Brandon_bld;
+	font-size: 15px;
+}
+.header .right ul li:first-child{
+    margin-right: 90px;
+}
+.header .right ul li:last-child img{
+    position: absolute;
+    top: 85px;
+    right: 165px;
+}
+.header .right ul li:first-child img{
+    position: absolute;
+    top: 90px;
+    right: 325px;
+}
+.header .logo{
+    margin-top: 50px;
 }
