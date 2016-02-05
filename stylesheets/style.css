@@ -1,3 +1,27 @@
 body{
-	background-color: red;
+	background-color: white;
+}
+#landing{
+
+}
+#landing .bg_landing{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url(../assets/img/background_1.png) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+ 	background-size: cover; /* version standardisée */
+}
+.header{
+	padding-top: 90px;
+}
+.header .left{
+	float: left;
+	margin-left: 75px;
+}
+.header .right{
+	float: right;
+}
+.header .right ul li{
+	display: inline-block;
 }
