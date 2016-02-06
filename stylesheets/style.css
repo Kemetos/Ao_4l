@@ -50,14 +50,14 @@ body{
     transition:  left 0.4s ease-in-out;
 }
 .container.open-sidebar{
-    left: 400px;
+    left: 890px;
 }
 #sidebar{
     background: #fff;
     color:#676666;
     position: absolute;
-    left: -400px;
-    width: 400px;
+    left: -890px;
+    width: 890px;
     height: 100%;
     padding-top: 120px;
     box-sizing: border-box;
@@ -71,30 +71,17 @@ body{
     text-transform: uppercase;
     color: #f68d98;
     font-family: Brandon_bld;
-    padding: 12px 30px;
+    padding: 12px 70px;
 }
 #sidebar p{
     font-size: 18px;
     font-family: Brandon_bld;
     display: block;
-    padding: 12px 20px;
+    padding: 12px 70px;
+    line-height: 27px;
+    letter-spacing: 50;
 
 }
-/*.main-content {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    position: relative;
-}*/
-
-/*.main-content .content{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-padding-left: 60px;
-width: 100%;
-}*/
 
 /* LANDING */
 
@@ -122,6 +109,9 @@ width: 100%;
 iframe{
     border: 8px solid #fff;
     border-radius: 12px 12px;
+    -webkit-box-shadow: 0px 2px 10px 2px rgba(76,41,41,0.61);
+    -moz-box-shadow: 0px 2px 10px 2px rgba(76,41,41,0.61);
+    box-shadow: 0px 2px 10px 2px rgba(76,41,41,0.61);
 }
 .button-start{
     text-align: center;
@@ -131,13 +121,17 @@ iframe{
 }
 button{
     background-color: #de4a4a;
-    height: 60px;
+    height: 65px;
     width: 300px;
     border-radius: 32.5px 32.5px;
     font-family: Brandon_bld;
     font-size: 30px;
     text-transform: uppercase;
     color: #fff;
+}
+.button-start.start{
+    position: absolute;
+    bottom: 160px;
 }
 
 /* HEADER LANDING*/
