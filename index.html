@@ -38,7 +38,7 @@
 						<p class="text-center winner">Vainqueurs <br> PAULINE & MARGAUX</p>
 					</div>
 					<div class="bot_ul">
-						<a href="#"><p class="text-center">Revoir l'étape</p></a>
+						<a href="#" onclick="close_pop_up();"><p class="text-center">Revoir l'étape</p></a>
 					</div>
 				</li>
 				<li>
@@ -121,5 +121,43 @@
 			</ul>
 		</div>
 	</section>
+	<section id="pop_up_etape">
+		<div class="row">
+			<div class="close_pop_up">
+				<a href="#" onclick="close_pop_up();"><p>FERMER X</p></a>
+			</div>
+			<div class="pop_up_left small-4 columns">
+				<div class="top_pop_up">
+					<p>PREMIERE ETAPE</p>
+					<p>DEFAITE</p>
+				</div>
+				<div class="trajet_pop_up">
+					<p class="pop_up_titre">TRAJET</p>
+					<p>Biarritz &nbsp &nbsp--> &nbsp &nbspBivouac</p>
+				</div>
+				<div class="caracteristique">
+					<p class="pop_up_titre">CARACTERISTIQUES</p>
+					<p class="distance">Distance à vol d'oiseau<span>600 km</span></p>
+					<p class="distance distance_p_m">Distance parcourue par <br> Pauline & Margaux <span>754 km</span></p>
+				</div>
+				<div class="statistique">
+					<p class="pop_up_titre">STATISTIQUES</p>
+					<p class="distance">Nombre de ‘ J’aime ‘ <span>600 km</span></p>
+					<p class="distance prtg">Nombre de ‘ Partage ‘ <span class="stat_prtg">754 km</span></p>
+					<p class="distance dons">Dons récolotés <span class="stat_dons">20 E</span></p>
+				</div>
+				<div class="status_pop_up">
+					<p class="pop_up_titre">STATUT DE LA COURSE</p>
+					<p class="gros_titre">TERMINEE</p>
+					<p class="pop_up_txt_end">Vous avez perdu... Rendez-vous à l’étape 2 <br> pour continuer à avancer dans la course.</p>
+					<a href="#"><p>Voir l'étape 2</p></a>
+				</div>
+			</div>
+			<div class="pop_up_right small-8 columns"></div>
+		</div>
+	</section>
 </body>
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/foundation.js"></script>
+	<script src="js/app.js"></script>
 </html>

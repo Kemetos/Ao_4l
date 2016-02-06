@@ -35,6 +35,12 @@ body{
 	background-color: white;
 }
 
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
 /* LANDING */
 
 .bg_landing{
@@ -206,4 +212,134 @@ body{
     width: 120px;
     border-radius: 10px;
     margin: auto;
+}
+/* POP UP */
+
+#pop_up_etape .row{
+    max-width: 85rem;
+    height: 900px;
+}
+#pop_up_etape .pop_up_left{
+    background-color: white;
+    height: 100%;
+}
+#pop_up_etape .pop_up_right{
+    background-color: white;
+    background-image: url(../assets/img/bg_etape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.close_pop_up{
+    position: absolute;
+    float: right;
+    font-family: Brandon_med;
+    font-size: 18px;
+    color: #f68d98;
+}
+
+
+.top_pop_up{
+    height: 65px;
+}
+.top_pop_up p:first-child{
+    float: left;
+    font-family: Brandon_med;
+    color: #f47482;
+    font-size: 27px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.top_pop_up p:last-child{
+    float: right;
+    margin-top: 42px;
+    margin-right: 80px;
+    color: #cc4252;
+    font-size: 12px;
+    font-family: Brandon_bld;
+}
+
+.trajet_pop_up{
+    height: 130px;
+}
+.trajet_pop_up .pop_up_titre{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: Brandon_med;
+    color: #ffa99c;
+}
+.pop_up_titre{
+    position: absolute;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: Brandon_med;
+    color: #ffa99c;
+}
+.trajet_pop_up p:last-child{
+    position: absolute;
+    font-size: 18px;
+    font-family: Brandon_bld;
+    color: black;
+    margin-top: 55px;
+    margin-left: 160px;
+}
+
+.caracteristique{
+    height: 210px;
+}
+.statistique{
+    height: 242px;
+}
+.distance{
+    padding-top: 40px;
+    margin-left: 30px;
+    color: #606060;
+    font-size: 18px;
+    font-family: Brandon_med;
+}
+.distance span{
+    color: #f68d98;
+    font-size: 27px;
+    font-family: Brandon_med;
+    margin-left: 55px;
+}
+.distance_p_m{
+    padding-top: 0 !important;
+}
+.distance_p_m span{
+    margin-left: 75px !important;
+}
+.prtg, .dons{
+    padding-top: 0 !important;
+}
+.stat_prtg{
+    margin-left: 50px !important;
+}
+.stat_dons{
+    margin-left: 100px !important;
+}
+
+.status_pop_up .gros_titre{
+    padding-top: 55px;
+    margin-left: 30px;
+    font-family: Brandon_med;
+    font-size: 27px;
+    color: #de4a4a;
+}
+.status_pop_up .pop_up_txt_end{
+    font-size: 18px;
+    font-family: Brandon_med;
+    color: #676666;
+    margin-left: 30px;
+}
+.status_pop_up p:last-child{
+    float: right;
+    text-decoration: underline;
+    margin-right: 30px;
+    color: #f47482;
+    font-family: Brandon_med;
+    font-size: 18px;
 }
