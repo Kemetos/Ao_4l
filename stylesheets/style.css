@@ -120,6 +120,7 @@ body{
     height: 270px;
     margin-right: 25px;
     background-color: #eedecc;
+    box-shadow: -10px 10px 20px #888888;
 }
 .container_ul li:last-child{
     margin-right: 0;
@@ -342,4 +343,30 @@ body{
     color: #f47482;
     font-family: Brandon_med;
     font-size: 18px;
+}
+
+
+.pop_up_right p:first-child{
+    margin-top: 650px;
+    font-size: 21px;
+    font-family: Brandon_bld;
+    color: #f47482;
+}
+.pop_up_right ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: #ffa99c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-right: 40px;
+    font-family: Brandon_bld;
+    font-size: 20px;
+    box-shadow: -5px 5px 10px #d4b9ab;
+}
+.pop_up_right .don{
+    background-color: #de4a4a !important;
 }
